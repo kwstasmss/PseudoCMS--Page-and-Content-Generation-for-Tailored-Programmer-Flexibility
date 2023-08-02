@@ -4,7 +4,8 @@ The pages.php file creates a connection to the database using the dbconnect.php 
 
 Το αρχείο pages.php δημιουργεί μια διασύνδεση με τη βάση δεδομένων, χρησιμοποιώντας το αρχείο dbconnect.php. Πραγματοποιεί μια ερώτηση SQL για να ανακτήσει όλες τις σελίδες από τον πίνακα "pages". Στη συνέχεια, δημιουργεί μια λίστα HTML με τις σελίδες και παρουσιάζει τα δεδομένα τους σε μορφή πίνακα. Προσφέρει επίσης τη δυνατότητα προσθήκης νέας σελίδας μέσω του συνδέσμου "Add Page". Εμφανίζει τα περιεχόμενα και τις πληροφορίες των σελίδων σε δύο γλώσσες (Αγγλικά και Ελληνικά) και παρέχει σύνδεσμο "Edit" για επεξεργασία.<br><br>
 
-![1](https://github.com/kwstasmss/PseudoCMS--Page-and-Content-Generation-for-Tailored-Programmer-Flexibility-/assets/140596070/72ecaa76-350b-403c-8d1b-920879ce5b49)
+![1](https://github.com/kwstasmss/PseudoCMS--Page-and-Content-Generation-for-Tailored-Programmer-Flexibility/assets/140596070/bc7177cb-ef28-45b2-a213-917fcbd02ef0)
+
 
 <br><br><br>
 
@@ -14,10 +15,13 @@ The addpage.php file is responsible for connecting to the database using the dbc
 
 Το αρχείο addpage.php αναλαμβάνει τη σύνδεση με τη βάση δεδομένων, χρησιμοποιώντας το αρχείο dbconnect.php. Δημιουργεί μια φόρμα που επιτρέπει την προσθήκη νέας σελίδας. Η φόρμα περιλαμβάνει πεδία για τίτλο, περιεχόμενο και μεταδεδομένα SEO στις γλώσσες Αγγλικά (EN) και Ελληνικά (GR). Χρησιμοποιεί τη συνάρτηση generateSlug() για τη δημιουργία ενός μοναδικού slug από τον τίτλο της σελίδας στην Αγγλική γλώσσα, το οποίο χρησιμοποιείται ως μοναδικό URL για κάθε σελίδα. Αναγνωρίζει εάν ο χρήστης επιλέξει εικόνα για τη σελίδα και την ανεβάζει στον φάκελο "img/". Εισάγει τα δεδομένα στον πίνακα "pages" της βάσης δεδομένων.<br><br>
 
-![2](https://github.com/kwstasmss/PseudoCMS--Page-and-Content-Generation-for-Tailored-Programmer-Flexibility-/assets/140596070/71b86611-00ed-41c2-98b5-22abc5b351f8)
-![3](https://github.com/kwstasmss/PseudoCMS--Page-and-Content-Generation-for-Tailored-Programmer-Flexibility-/assets/140596070/970da19e-0284-4a24-9b45-53d0355564b9)
-![4](https://github.com/kwstasmss/PseudoCMS--Page-and-Content-Generation-for-Tailored-Programmer-Flexibility-/assets/140596070/4c984b54-8032-4667-a901-1e62caece475)
-![5](https://github.com/kwstasmss/PseudoCMS--Page-and-Content-Generation-for-Tailored-Programmer-Flexibility-/assets/140596070/a2e0e6df-daa1-45b7-95c4-84fb5c467408)
+![2](https://github.com/kwstasmss/PseudoCMS--Page-and-Content-Generation-for-Tailored-Programmer-Flexibility/assets/140596070/616ca081-caf1-4a53-a975-e3db55b6562d)
+![3](https://github.com/kwstasmss/PseudoCMS--Page-and-Content-Generation-for-Tailored-Programmer-Flexibility/assets/140596070/acc5eec1-955f-40a7-83f0-8d807e3afad4)
+![4](https://github.com/kwstasmss/PseudoCMS--Page-and-Content-Generation-for-Tailored-Programmer-Flexibility/assets/140596070/11ef3707-eca1-4253-8206-3a0dda4ff84d)
+![5](https://github.com/kwstasmss/PseudoCMS--Page-and-Content-Generation-for-Tailored-Programmer-Flexibility/assets/140596070/585017fb-29f2-4c73-9664-0d7a5e7c83aa)
+
+
+
 
 <br><br><br>
 
